@@ -7,6 +7,7 @@
   </head>
   <body>
     <h1>Hello, World!</h1>
+    <p>Aller au <a href="#quatrième">quatrième</a> exemple directement !</p>
       <p>Test website</p>
       <ul>
         <li>item</li>
@@ -15,7 +16,62 @@
       <ol>
         <li>1er item</li>
         <li>2eme item</li>
+        <li>2eme item</li>
+        <li id="quatrième">4eme item</li>
       </ol>
-      
+      <p><img src="images/nav1.jpg" alt="photo navette">Photo d'une navette</p>
+
+      <TABLE>
+          <TR>
+              <TH ROWSPAN=2 COLSPAN=2></TH>
+              <TH COLSPAN=2>Connexion</TH>
+             <TH ROWSPAN=2>Cavaliers</TH>   </TR>
+          <TR>
+              <TH>Carte mère</TH>
+              <TH>Carte contrôleur</TH>   </TR>
+          <TR>
+              <TH ROWSPAN=2>Disque dur</TH>
+              <TD>E-IDE</TD>
+              <TD>Figure A</TD>
+              <TD>Figure D</TD>
+              <TD ROWSPAN=2>Figure G</TD>   </TR>
+          <TR>
+              <TD>SCSI</TD>
+              <TD>Figure B</TD>
+              <TD>Figure E</TD>
+          </TR>
+      </TABLE>
+      <form>
+    <p>
+        M. <input name=qualite type=radio value=mr>
+        Mme <input name=qualite type=radio value=mme>
+        Mlle <input name=qualite type=radio value=mlle>
+    </p>
+    <p>
+        Votre nom : <input name=patronyme size=15>
+        Votre prénom : <input name=prenom size=30>
+    </p>
+    <p>
+        Votre mot de passe : <input name=clef type=password size=6>
+    </p>
+    <p>
+        Numéro : <input name=no type=int size=5>
+        Rue <input name=lieu type=radio value=rue checked>
+        Place <input name=lieu type=radio value=place>
+        Avenue <input name=lieu type=radio value=ave>
+        Boulevard <input name=lieu type=radio value=bvd>
+    </p>
+    <p>
+        Adresse : <input name=adresse type=text size=40>
+    </p>
+    <p>
+        Code postal : <input name=cp type=int size=5>
+        Ville : <input name=ville size=15>
+    </p>
+    <p>
+        <input type=submit value=Valider>
+        <input type=reset value=Annuler>
+    </p>
+</form>
   </body>
 </html>
