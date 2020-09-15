@@ -1,0 +1,25 @@
+header{
+  display: flex;
+  background-color: #4da6ff;
+  padding-left: 16%;
+  height: 30px;
+  font-size: 25px;
+  font-family: arial;
+  padding-top: 5px;
+
+}
+.element1{
+  flex: 1;
+}
+.element2{
+  flex: 1;
+}
+.element3{
+  flex: 1;
+}
+a{
+  color: white;
+}
+body{
+  background-color: #cca300;
+}

@@ -1,0 +1,13 @@
+.maclasse{
+  color: blue;
+  font-size: 15px;
+  font-style: italic;
+  text-align: center;
+}
+h1, h2{
+  color: green;
+  font-size: 25px;
+}
+ol{
+  text-align: center;
+}
